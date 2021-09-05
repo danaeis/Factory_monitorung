@@ -1,0 +1,16 @@
+/* The following block can be included in a custom.scss */
+
+
+/* make the customizations */
+$theme-colors: (
+  "primary": rgb(58, 73, 15),
+  "secondary": rgb(119, 149, 162),
+  "seconmary": rgb(69, 123, 157),
+  "info": rgb(14, 71, 97),
+  "danger": rgb(122, 4, 6),
+  "black": black
+);
+
+/* import bootstrap to set changes */
+
+@import '~bootstrap/scss/bootstrap.scss';
